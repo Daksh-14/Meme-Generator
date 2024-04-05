@@ -1,0 +1,39 @@
+.Navbar{
+    display: flex;
+    padding: 2vh 5vw;
+    align-items: center;
+    width: 90vw;
+    background-image: linear-gradient(to right, #672280 , #A626D3);
+}
+
+.Navbar-img{
+    width:4vw;
+    min-width: 40px;
+    height: fit-content;
+}
+
+.NavWrap{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+}
+
+.Navbar-heading{
+    color: white;
+    font-size: 2rem;
+}
+
+.Navbar-text{
+    color: white;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:684px) {
+    .Navbar-heading{
+        font-size:1rem;
+    }
+    .Navbar-text{
+        font-size: 0.8rem;
+    }
+}
